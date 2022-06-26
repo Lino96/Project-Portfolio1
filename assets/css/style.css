@@ -3,6 +3,12 @@ body {
     font-style: arial;
 }
 
+header {
+    display: block;
+    height: 100px;
+    background-color: #FFF;
+}
+
 #menu  li {
     float: right;
     list-style: none;
@@ -11,4 +17,9 @@ body {
 
 #menu a {
     text-decoration: none;
+}
+
+#Napoleon-image {
+    float: right;
+    width: 400px
 }
