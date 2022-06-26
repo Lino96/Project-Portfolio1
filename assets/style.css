@@ -1,0 +1,14 @@
+body {
+    background-color: aqua;
+    font-style: arial;
+}
+
+#menu  li {
+    float: right;
+    list-style: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+}
