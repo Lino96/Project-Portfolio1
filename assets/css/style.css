@@ -114,3 +114,4 @@ section:nth-child(even) > div > div:nth-child(2) {
     display: flex;
     justify-content: start;
 }
+
