@@ -1,108 +1,459 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Lino96,
+# **Napoleon - Project Portfolio 1 - HTML & CSS_**
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Reflection is a small independent company that advertises and encourages new users to step into the wonderful world of Yoga. This site is target at individuals who have not yet tried Yoga and are looking for some help, guidance and inspiration to give it a go. Reflection is a brilliant source for people around the world to find out information about Yoga with the ability to get in touch and seek for further guidance on how to get started.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+You can view the live site here - <a href="https://miker94.github.io/CI-Project-Portfolio-1/" target="_blank" rel="noopener">Reflection</a>
 
-## Gitpod Reminders
+![Reflection responsive design](assets/readme-images/responsive-preview.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# Contents
 
-`python3 -m http.server`
+* [**Objective**](<#objective>)
+* [**User Experience UX**](<#user-experience-ux>)
+    * [Design Prototype](<#design-prototype>)
+    * [Site Structure](<#site-structure>)
+    * [Design Choices](<#design-choices>)
+    *  [Typography](<#typography>)
+    *  [Colour Scheme](<#colour-scheme>)
+* [**Features**](<#features>)
+    * [**Home**](<#navigation-menu>)
+         * [Navigation Menu](<#navigation-menu>)
+         * [Home](<#home>)
+         * [About](<#about>)
+         * [Try It](<#try-it>)
+         * [Contact](<#contact>)
+         * [Footer](<#footer>)
+    * [**Future Features**](<#future-features>)
+         * [Testimonials](<#testimonials>)
+         * [Log In](<#log-in>)
+         * [Latest News](<#latest-news>)
+         * [Newsletter](<#latest-news>)
+* [**Technologies Used**](<#technologies-used>)
+* [**Testing**](<#testing>)
+* [**Deployment**](<#deployment>)
+* [**Credits**](<#credits>)
+    * [**Content**](<#content>)
+    * [**Media**](<#media>)
+*  [**Acknowledgments**](<#acknowledgements>)
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+# Objective
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+In my first project I intend to provide a professionally developed website for users to find out about Yoga. The main objective is to demonstrate competency in HTML and CSS alongside showcasing attention to detail and the importance of thorough testing.
 
-A blue button should appear to click: _Make Public_,
+[Back to top](<#contents>)
 
-Another blue button should appear to click: _Open Browser_.
+# User Experience (UX)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+[Back to top](<#contents>)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Site Structure
 
-------
+The website Reflection is a one-page website that has 4 navigation links for the user to use. The [Home Page](index.html) is the default loading page and the subsequent sections of the home page are **About**, **Try Now** and **Contact**. The pages are all accessible primarily from the navigation menu however the user simply has to scroll down the website, and they will visit these sections in the order above.
 
-## Release History
+[Back to top](<#contents>)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Design Choices
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+ * ### Typography
+      The fonts chosen were 'Poppins' for the headings and for the body text however different font-weights and font-sizes were used to give further clarity. They fall back to sans-serif respectively if the Poppins font can't be loaded. 
+     *  'Poppins' was chosen for the primarily to give the user an initial welcoming feel. The font-style is very modern and clean and gives a professional and inviting feeling to the website.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+ * ### Colour Scheme
+      The colour scheme eventually chosen is one based on a darker pink, lighter-black and off-white. This colour scheme gives off a warm, positive and clean feeling to the website and this is something that Reflection can hopefully pass onto the user.<br /><br />
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![Colour Palate image](assets/readme-images/reflection-colour-palette.png)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+[Back to top](<#contents>)
+# Features
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The Reflection website is set up to be welcoming and easy to use. It contains many features that the user would probably be familiar with, such as a navigation bar and contact form. The overall feel of the website is intended to be inviting and not intimidating to encourage the user to explore further. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Existing Features  
+  * ### Navigation Menu
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+    * Located at the top of the website and stays on the screen at all times, it is fully responsive and contains links to all the sections of the site to enable ease of navigation in one convenient location.
+    * The logo is clickable with a link back to the home page for enhanced UX.<br /><br />
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<details><summary><b>Desktop Navigation Bar Image</b></summary>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![Navigation Bar Desktop Image](assets/readme-images/nav-bar-desktop-image.png)
+</details><br />
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+<details><summary><b>Responsive Navigation Bar Image</b></summary>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![Navigation Bar Responsive Image](assets/readme-images/nav-bar-responsive-image.png)
+</details><br />
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+<details><summary><b>Responsive Navigation Bar Dropdown Image</b></summary>
 
-------
+![Navigation Bar Responsive Image](assets/readme-images/nav-bar-responsive-open-image.png)
+</details><br />
 
-## FAQ about the uptime script
+[Back to top](<#contents>)
 
-**Why have you added this script?**
+  * ### Home
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+      * This is the first part of the website the user will see when visiting. Designed to be a warm and welcoming full page image to welcome the user and to give a clean and clear direction of what the website is about.
+      * In the middle of the image is a catchy and appealing slogan to further clarify to the user that this website is about Yoga.
+      * Beneath the slogan is a simple yet effective button that encourages the user to "Learn More". Clicking this button will scroll the user down to the About section where the user will gain further information regarding Yoga and it's benefits.<br /><br />
 
-**How will this affect me?**
+<details><summary><b>Hero Desktop Home/Landing Page Image</b></summary>
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+![Hero Image](assets/readme-images/hero-image.jpg)
+</details><br />
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+[Back to top](<#contents>)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+  * ### About
+    * The About section lets the user know immediately what Yoga is, are they able partake and also provides a list of benefits from doing Yoga.
+    * The Benefits section breaks up the website and entices the user to focus in on what the benefits are from partaking in Yoga. It is fully responsive and splits into 2 columns at 1028px wide and then into 1 single column at 792px wide.<br /><br /> 
 
-**So….?**
+<details><summary><b>Desktop About Image</b></summary>
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+![About-Us image](assets/readme-images/about-image.png)
+</details><br />
 
-**Can I opt out?**
+<details><summary><b>Benefits Section 2 Column Image</b></summary>
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+![Benefits 2 Col Image](assets/readme-images/benefits-2-col-image.png)
+</details><br />
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+<details><summary><b>Benefits Section 1 Column Image</b></summary>
 
-**Anything more?**
+![Benefits 1 Col Image](assets/readme-images/benefits-1-col-image.png)
+</details><br />
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+[Back to top](<#contents>)
 
----
+  * ### Try It
 
-Happy coding!
+    * The Try It section provides the user with some basic beginner Yoga positions to attempt.
+    * It is styled so that the user is presented with both a steps and a video tutorial which are side-by-side so the user can clearly identify which Yoga position they are doing.
+    * The Try-It section has 3 different Yoga positions for the user to try and they are all displayed in this exact format for Desktop. As the screen width gets smaller, the position of the steps and videos will stack on top of each other to maintain a clean and positive experience for the user.<br /><br />
+
+<details><summary><b>Desktop Try It Section Image</b></summary>
+
+![Try It Desktop](assets/readme-images/try-it-image.png)
+</details><br />
+
+<details><summary><b>Responsive Try It Section Image</b></summary>
+
+![Try It Responsive](assets/readme-images/try-it-responsive-image.png)
+</details><br />
+
+<details><summary><b>Mobile Try It Section Image</b></summary>
+
+![Try It Mobile](assets/readme-images/try-it-mobile-image.png)
+</details><br />
+
+[Back to top](<#contents>)
+
+* ### Contact
+    
+    * The contact form was designed with simplicity in mind. It has 4 input fields, these being Name, Email Address, How Can We Help and Message. 
+    * The contact section is fully responsive and removes the the image and the text on the right-hand side when the device width can no longer accommodate them. At this point, the form will be centralised.
+    * Just below the contact section is a quote from a famous Yoga practitioner. This is to give the user some inspiration and confidence to attempt Yoga for themselves. It also provides breathing space between the contact-form and the footer of the page so the colours don't look too aggressive together.<br /><br />
+    
+<details><summary><b>Desktop Contact Image</b></summary>
+
+![Contact Image Desktop](assets/readme-images/contact-image.png)
+</details><br />
+
+<details><summary><b>Responsive Contact Image</b></summary>
+
+![Contact Image Responsive](assets/readme-images/contact-responsive-image.png)
+</details><br />
+
+[Back to top](<#contents>)
+* ### Footer
+    
+    * Contains social media links. To enhance the UX, the links open in separate tabs.
+    * The Facebook, Twitter, Youtube and Instagram social links are there for the educational side of this project and navigate the user to the home page of each respected site. They would be changed to re-direct the user to the respective Reflection social media if this site was deployed outside of this project.<br /><br />
+
+<details><summary><b>Desktop Footer Image</b></summary>
+
+![Footer image](assets/readme-images/footer-desktop-image.png)
+</details><br />
+
+<details><summary><b>Responsive Footer Image</b></summary>
+
+![Footer image](assets/readme-images/footer-responsive-image.png)
+</details><br />
+
+[Back to top](<#contents>)
+
+* ## Future Features 
+
+* ### Testimonials
+
+    * A Testimonial section to showcase positive comments about our service.
+    * This would be displayed in the form of multiple 'cards' and have a quote from the user, the users name and an image of the user if they wish to provide one.
+
+* ### Log-In
+
+    * Allow the user to log into the website and have a profile
+    * The log-in option would be located within the navigation bar and re-direct the user to a new page where they can enter details and register an account.
+
+* ### Latest News
+
+    * The latest news section would be displayed on the main page but only show the most recent and appropriate headlines.
+    A small link with the text "read more" will then re-direct the user to the full news article. 
+
+* ### Newsletter
+
+    * A simple newsletter section that would allow the user to opt-in to monthly emails sent out by Reflection on the latest and best things about Yoga and the business.
+
+[Back to top](<#contents>)
+
+# Technologies Used
+* [HTML5](https://en.wikipedia.org/wiki/HTML) - Provides the content and structure for the website.
+* [CSS3](https://en.wikipedia.org/wiki/CSS) - Provides the styling for the website.
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Provides the responsive navigation bar for the website.
+* [Figma](https://www.figma.com/) - Used to create the design prototype.
+* [a11y](https://color.a11y.com/Contrast/) - Used to test the contrast and accessibility.
+* [Favicon](https://favicon.io/) - Used to create the favicon.
+* [Compressor](https://compressor.io/) - Used to compress the images.
+* [Gitpod](https://www.gitpod.io/#get-started) - Used to create and edit the website.
+* [GitHub](https://github.com/) - Used to host and deploy the website.
+* [GitBash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) - Terminal used to push changes to the GitHub repository.
+
+[Back to top](<#contents>)
+
+# Testing
+
+* ## Code Validation
+
+    * The Reflection website has been thoroughly tested. All the code has been validated via the [W3C HTML Validator](https://validator.w3.org/), the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and the [JSHint Validator](https://jshint.com/). 3 minor errors were found on the index.html when tested on [HTML Validation](https://validator.w3.org/) but were fixed immediately and documented below.<br /><br />
+
+* ### HTML Validation Image
+
+    ![HTML Validation](assets/readme-images/html-validation-image.png)
+
+* ### CSS Validation Image
+
+    ![CSS Validation](assets/readme-images/css-validation-image.png)
+
+* ### JS Validation Image
+
+    ![JS Validation](assets/readme-images/js-validation-image.png)
+
+* ## Lighthouse Testing 
+
+    * Furthermore the website has been through the [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) and [Microsoft Edge Dev Tools](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/open/?tabs=cmd-Windows) Lighthouse Testing which tests the website for the following:
+        * Performance - How the page performs whilst loading.
+        * Accessibility - Is the site accessible for all users and how can it be improved.
+        * Best Practices - Site conforms to industry best practices.
+        * SEO - Search Engine Optimisation. Is the site optimised for search engine result rankings.<br /><br />
+
+* ### Edge Desktop Lighthouse Result
+
+    ![Edge Desktop Lighthouse](assets/readme-images/desktop-edge-lighthouse-image.png)
+
+* ### Edge Mobile Lighthouse Result
+
+    ![Edge Mobile Lighthouse](assets/readme-images/mobile-edge-lighthouse-image.png)
+
+* ### Chrome Desktop Lighthouse Result
+
+    ![Chrome Desktop Lighthouse](assets/readme-images/lighthouse-desktop-image.png)
+
+* ### Chrome Mobile Lighthouse Result
+
+    ![Chrome Mobile Lighthouse](assets/readme-images/lighthouse-mobile-image.png)
+
+    * I noticed the best practices was down by 7 points when run under the [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) and it seems to be to do with Content Security Policy. If this website was to go live for users then I would address this issue immediately however since this website was built for educational purposes and I've not yet been informed about CSP, I will look into it at a later date.<br /><br />
+
+* ## Accessibility Testing
+    * I also put the website through [a11y](https://color.a11y.com/Contrast/) to further test the contrast and found no issues.  <br /><br />
+
+    ![a11y Test](assets/readme-images/a11y-contrast-test-image.png)
+
+* ## Responsiveness Testing
+    * The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).<br /><br />
+
+    ![Responsive Test Sheet](assets/readme-images/responsive-test-image.png)
+
+* ## Compressing Images
+    * All images have been compressed with [Compressor](https://compressor.io/) and I managed to save a total of 1568 KB.<br /><br />
+
+    ![Compressed Image 1](assets/readme-images/compressed-1.png)
+
+    ![Compressed Image 2](assets/readme-images/compressed-2.png)
+
+    ![Compressed Image 3](assets/readme-images/compressed-3.png)
+
+    ![Compressed Image 4](assets/readme-images/compressed-4.png)
+
+
+* ## Manual Testing
+    * In addition to the other tests, I have conducted a manual check list for myself to carry out to make sure that everything is working as intended.
+
+
+   * ### Manual Tests Conducted
+      * Navigation Menu
+        * Verify that clicking on logo navigates to the top of the page.
+        * Verify that when clicked, all navigation links scroll smoothly to the correct section of the page.
+        * Verify that all navigation links have the :hover psuedo selector and the correct colour.
+        * Verify that the navigation menu transitions into the hamburger icon at 729px wide.
+        * Verify that when the hamburger is clicked, the navigation menu drops down.
+        * Verify that the navigation bar stays at the top of the page at all times whilst the user scrolls.
+        * Verify that the navigation bar is fully responsive.
+      * Home/Landing Section
+        * Verify that the hero image fits and does not pixelate.
+        * Verify that the main text and Learn More button is central to the page.
+        * Verify that when clicked, the Learn More button takes the user to the About section.
+        * Verify that the Learn More button has the :hover psuedo selector and the correct colour.
+        * Verify that the Home/Landing section is fully responsive.
+      * About Section
+        * Verify that the text is clearly presented with the correct font-style and font-size.
+        * Verify that the text does not have any spelling mistakes.
+        * Verify that the text centralises at 500px wide.
+        * Verify that the About section is fully responsive.
+      * Benefits Section
+        * Verify that the section has the correct colour background applied.
+        * Verify that the list does not have any spelling mistakes.
+        * Verify that the list is clearly presented with the correct font-style and font-size.
+        * Verify that the list has green tick icons and are positioned correctly.
+        * Verify that the list splits into 2 columns at 1028px wide and then 1 column at 792px wide.
+        * Verify that Benefits section is fully responsive.
+      * Try It Section
+        * Verify that the text is clearly presented with the correct font-style and font-size.
+        * Verify that the text does not have any spelling mistakes.
+        * Verify that the steps arrow icons and are coloured correctly.
+        * Verify that all the videos do not automatically play.
+        * Verify that all the videos play when the user clicks on the video.
+        * Verify that the Try It section is fully responsive.
+      * Contact Section
+        * Verify that all elements that are set to required are working.
+        * Verify that valid email address is needed with relevant '@' included.
+        * Verify that the text is clearly presented with the correct font-style and font-size.
+        * Verify that the text does not have any spelling mistakes.
+        * Verify that 'Submit' button informs the user that the submission was successful.
+        * Verify that the Contact section is fully responsive.
+      * Quote Section
+        * Verify that the text is clearly presented with the correct font-style and font-size.
+        * Verify that the text does not have any spelling mistakes. 
+        * Verify that the profile image is aligned correctly.
+        * Verify that the profile image is not pixelated.
+        * Verify that the Quote Section is fully responsive.
+      * Footer Section
+        * Verify that the social media links open in a new tab.
+        * Verify that the Footer section is fully responsive
+        <br /><br />
+
+* ## Browser Compatibility
+    * The website has had manual and responsive tests conducted on the below browsers with additional Lighthouse testing on Google Chrome and Microsoft Edge and I was presented with no issues.
+        * Google Chrome
+        * Microsoft Edge
+        * Safari
+        <br /><br />
+
+* ## Bugs Fixed 
+
+    ### Console Error
+        
+    * A console error appeared when inspecting the website with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and stated "Failed to load resource: the server responded with a status of 404 () /favicon.ico:1. After doing some research into this error, I found that this was simply due to the website not having a favicon.<br /><br />
+
+    ![FavIcon Issue](assets/readme-images/favicon-issue-image.png)
+
+     * After implementing the favicon, the console error had disappeared.<br /><br />
+
+    ![FavIcon Solved](assets/readme-images/favicon-solved-image.png)
+
+    ### HTML Validation
+    
+    * After putting the website through [HTML Validation](https://validator.w3.org/), I was presented with the following errors below:<br /><br />
+
+    ![Frameborder Error](assets/readme-images/frameborder-error-image.png)
+
+    * It said that the frameborder attribute on the iframe element ID is obsolete so after removing the frameborder attribute in the HTML code, it returned with no errors.<br /><br />
+
+    ![Frameborder Solved](assets/readme-images/html-validation-image.png)
+    
+    ### Form 404
+    
+    * When testing the form, I noticed that when the users click the submit button it will re-direct them to another page and display the below error: <br /><br />
+
+    ![Form 404 Error](assets/readme-images/form-404-error-image.png)
+
+    * This was caused by the form action not being set up correctly. To fix this, I changed the form action to re-direct the user to the home page and then display a browser alert to let the user know that the form submission was successful. I included some additional text to let the user know that the information they submitted was not being used and that this was for educational purposes only.<br /><br />
+
+    ![Form 404 Solved](assets/readme-images/form-alert-image.png)
+
+
+* ## Bugs Unresolved  
+    * When inspecting the website with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and selecting issues and then include third-party cookie issues, the website is showing to have 2 separate issues.<br /><br />
+
+    ![Site Issue](assets/readme-images/site-issues-image.png)
+    
+    * As for the cookie issue and what is causing this, I found some very good information on [StackOverflow](https://stackoverflow.com/questions/60822936/where-to-add-samesite-none). It seems to be a server side issue and there is nothing that I can do from the client side to properly rectify the issue. There is one way to mitigate this issue but it is not a proper solution and that is to disable Cookie Deprecation through chrome://flags.
+
+    * As for the navigator issue, I have narrowed this down to the Youtube videos that I have embedded on the site. I've done some research and apparently this is a Google Chrome issue as per this [source](https://forum.codewithmosh.com/t/the-ultimate-javascript-console-issue-at-beginning-of-course/6535) and has been reported [here](https://githubmemory.com/repo/zalmoxisus/redux-devtools-extension/issues/808). Additionally, I have tested this website with Microsoft Edge and the issue doesn't show.
+
+[Back to top](<#contents>)
+
+# Deployment
+
+### **To deploy the project**
+The site was deployed to GitHub pages. The steps to deploy a site are as follows:
+  1. In the GitHub repository, navigate to the **Settings** tab.
+  2. Once in Settings, navigate to the **Pages** tab on the left-hand side.
+  3. Under **Source**, select the branch to **master**, then click **save**.
+  4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+<details><summary><b>Git Deploy Preview Image</b></summary>
+
+![Git Deploy Image](assets/readme-images/git-deploy-image.png)
+</details><hr>
+
+### **To fork the repository on GitHub**
+A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository;
+1. Log in to **GitHub** and locate the [repository](https://github.com/MikeR94/CI-Project-Portfolio-1).
+2. On the right-hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
+
+<details><summary><b>Git Fork Preview Image</b></summary>
+
+![Git Fork Image](assets/readme-images/git-fork-image.png)
+</details><hr>
+
+### **To create a local clone of this project**
+The method from cloning a project from GitHub is below:
+
+1. Under the repository’s name, click on the **code** tab.
+2. In the **Clone with HTTPS** section, click on the clipboard icon to copy the given URL.
+3. In your IDE of choice, open **Git Bash**.
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. Type **git clone**, and then paste the URL copied from GitHub.
+6. Press **enter** and the local clone will be created.
+
+<details><summary><b>Git Clone Preview Image</b></summary>
+
+![Git Clone Image](assets/readme-images/git-clone-image.png)
+</details><hr>
+
+The live link to the Github repository can be found here - https://github.com/MikeR94/CI-Project-Portfolio-1
+
+[Back to top](<#contents>)
+
+# Credits
+### Content
+
+* The font came from [Google Fonts](https://fonts.google.com/)
+* The colour palette was displayed by [Coolors](https://coolors.co/)
+* The icons came from [Font Awesome](https://fontawesome.com/)
+* The responsive preview image at the top of the README.md came from  [Techsini](https://techsini.com/multi-mockup/index.php)
+* The responsive Youtube video came from a [YouTube Tutorial](https://www.youtube.com/watch?v=0L8cQ9nRtuE&t=671s)
+* The JavaScript code for the responsive navigation bar was provided and taught to me by brother [Jack Ralph](https://github.com/jackralph)
+* The text content came from [NHS](https://www.nhs.uk/live-well/exercise/guide-to-yoga/) and [HealthLine](https://www.healthline.com/health/fitness-exercise/beginner-yoga-poses)
+* The favicon came from [Favicon](https://favicon.io/) 
+
+### Media
+* The images came from [Pexels](https://www.pexels.com/), [HiClipArt](https://www.hiclipart.com/) and [YogaJournal](https://www.yogajournal.com/)
+* The photos were compressed using [Compressor](https://compressor.io/)
