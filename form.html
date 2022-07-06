@@ -4,9 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Flying With A Bike</title>
 </head>
 <body>
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Flying With A Bike</h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="form.html">Rent</a>
+                </li>
+                <li>
+                    <a href="About Us">About Us</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div id="form-main-image">
+        </div>
+        
+    </section>
+    <div id="form-section">
+        <h1>Submit The Following Form To Rent  A Bike!</h1>
+    <form action="https://formdump.codeinstitute.net" method="POST">
+        <fieldset>
+            <legend>Your Details</legend>
+
+        <label for="Full_Name">Your Name</label>    
+        <input id="Full_Name" type="Full_Name" name="Full-name" placeholder="Your Name" required><hr>
+
+        <label for="Email">Your Email</label>
+        <input id="Email" type="email" name="email" placeholder="Your Email" required><hr>
+
+        <label for="date_of_birth">Date of Birth</label>
+        <input id="date_of_birth" type="date" name="Date_of_birth" required><hr>
+        
+    </fieldset>
+
+    <fieldset>
+        <legend>Choose the type of bycicle</legend>
+
+        <label for="City_Bike">City Bike</label>
+        <input id="City_Bike" type="radio" name="Type_of_Bike" value="City Bike" required><hr>
+
+        <label for="Mountain_Bike">Mountain Bike</label>
+        <input id="Mountain_Bike" type="radio" name="Type_of_Bike" value="Mountain Bike" required><hr>
     
+    </fieldset>
+
+    <input type="submit" value="Enter Request">
+    <input type="reset" value="Reset Request">
+    </form>
 </body>
 </html>

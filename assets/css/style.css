@@ -22,7 +22,7 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 300%;
+    font-size: 350%;
     margin-left: 20px;
 }
 
@@ -65,10 +65,11 @@ h1, h2 {
 }
 
 .footer-icon {
+
     width: 40px;
-    margin-right: 10px;
-    margin-top: 20px;
-    line-height: 100px;
+    padding: 0 270px;
+    
+ 
 }
 
 .about {
@@ -100,3 +101,35 @@ h3 {
     line-height: 100px;
 }
 
+#form-main-image {
+    height: 800px;
+    width: 100%;
+    background: url('../images/Bike_background.jpg') no-repeat center center;
+    overflow: hidden;
+    background-size: cover;
+}
+
+#form-section {
+    text-align: center;
+    margin: 150px;
+}
+
+input {
+    border:1px solid black;
+   
+}
+
+#form-section h1 {
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+} 
+
+fieldset {
+    border:1px solid black;
+    line-height: 100px;
+}
+
+input[type=submit], input[type=reset] {
+    margin:10px;
+}
