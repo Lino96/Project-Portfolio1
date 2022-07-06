@@ -1,8 +1,6 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Flying With A Bike - Project Portfolio 1 - HTML & CSS_**
 
-# **Napoleon - Project Portfolio 1 - HTML & CSS_**
-
-Reflection is a small independent company that advertises and encourages new users to step into the wonderful world of Yoga. This site is target at individuals who have not yet tried Yoga and are looking for some help, guidance and inspiration to give it a go. Reflection is a brilliant source for people around the world to find out information about Yoga with the ability to get in touch and seek for further guidance on how to get started.
+Flying with a bike is a store located in the middle of Rome, where you can Rent any type of bycicle you want and visit one of the most beautiful cities in the world
 
 You can view the live site here - <a href="https://miker94.github.io/CI-Project-Portfolio-1/" target="_blank" rel="noopener">Reflection</a>
 
