@@ -53,5 +53,5 @@ I deployed the page using Github. I opened my repository then i clicked on setti
 ## Credits
 
 -I Took Example from the I love running project for the hero-image settings and nav menu
-
+-I took example from coffehouse project for the <meta> data
 
