@@ -130,7 +130,8 @@ fieldset {
     line-height: 100px;
 }
 
-input[type=submit], input[type=reset] {
+input[type=submit],
+input[type=reset] {
     margin:10px;
 }
 
