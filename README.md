@@ -22,3 +22,36 @@ The Form Page is used to rent a bycicle, basically, by submitting the form and c
 
 ![Image of the form page 1](assets/readme-images/form1.PNG)
 ![Image of the form page 1](assets/readme-images/form.PNG)
+
+## Bugs
+
+![Bugs](assets/readme-images/Errori.PNG)
+
+## Bug Fixes
+
+-Both First Two Errors were related to the same section, i solved by deleting the section, that wasn't really necessary
+
+The only error i still got is related to the iframe width, i don't know why i can only insert a digit value instead of a percentage value
+
+![Bugs 2](assets/readme-images/errore%20width.PNG)
+
+## CSS Validator
+
+![CSS Validator](assets/readme-images/validator_css.PNG)
+
+## Lighthouse Review
+
+![lighthouse results](assets/readme-images/Main_Page_lighthouse_review.PNG)
+![lighthouse results form](assets/readme-images/form_lighthouse_review.PNG)
+
+## Deployment
+
+I deployed the page using Github. I opened my repository then i clicked on settings, after, on the left i clicked on pages and selected main branch, after that saved and the site was loaded 
+
+[Here is the link of the site](https://lino96.github.io/Project-Portfolio1/index.html)
+
+## Credits
+
+-I Took Example from the I love running project for the hero-image settings and nav menu
+
+
