@@ -4,11 +4,11 @@ Flying with a bike is a store located in the middle of Rome, where you can Rent 
 
 On the Website, you're gonna be able to rent a bike by submitting a form, and to see all information about the store such as, opening times location and contacts.
 
-![Image of am i responsive](assets/readme-images/responsive%20site.PNG)
+![Image of am i responsive](assets/readme-images/responsive_site.PNG)
 
 ## Main Page
 
-![Image Main Page](assets/readme-images/Main%20Page.PNG)
+![Image Main Page](assets/readme-images/main_page.PNG)
 
 In the Main Page There is the logo of the page at top left, the navigation menu at top right, the hero image, and then About Us and Contact Sections
 
@@ -25,7 +25,7 @@ The Form Page is used to rent a bycicle, basically, by submitting the form and c
 
 ## Bugs
 
-![Bugs](assets/readme-images/Errori.PNG)
+![Bugs](assets/readme-images/errors.PNG)
 
 ## Bug Fixes
 
@@ -41,7 +41,7 @@ The only error i still got is related to the iframe width, i don't know why i ca
 
 ## Lighthouse Review
 
-![lighthouse results](assets/readme-images/Main_Page_lighthouse_review.PNG)
+![lighthouse results](assets/readme-images/main_page_lighthouse_review.PNG)
 ![lighthouse results form](assets/readme-images/form_lighthouse_review.PNG)
 
 ## Deployment
