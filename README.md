@@ -21,7 +21,7 @@ In the About Us and Contact Us is possible to find informations such as the stor
 The Form Page is used to rent a bycicle, basically, by submitting the form and choosing the type of bycicle you want to rent.
 
 ![Image of the form page 1](assets/readme-images/form1.PNG)
-![Image of the form page 1](assets/readme-images/rent.PNG)
+![Image of the form page 1](assets/readme-images/rent.JPG)
 
 ## Bugs
 
